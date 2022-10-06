@@ -163,17 +163,17 @@ elseif (Y=='1652')
 elseif (Y=='1807')
  set(handles.hasil,'string','membunuh')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='2324')
+ set(handles.hasil,'string','makan')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='2226')
+ set(handles.hasil,'string','berjalan')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='1717')
+ set(handles.hasil,'string','melihat')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='1963')
+ set(handles.hasil,'string','komputer')
 
 elseif (Y=='2071')
  set(handles.hasil,'string','duduk')
