@@ -1,26 +1,28 @@
-function varargout = AksaraSunda(varargin)
-% AKSARASUNDA MATLAB code for AksaraSunda.fig
-%      AKSARASUNDA, by itself, creates a new AKSARASUNDA or raises the existing
+function varargout = Tarjim(varargin)
+
+%faiq coba github
+% Tarjim MATLAB code for Tarjim.fig
+%      Tarjim, by itself, creates a new Tarjim or raises the existing
 %      singleton*.
 %
-%      H = AKSARASUNDA returns the handle to a new AKSARASUNDA or the handle to
+%      H = Tarjim returns the handle to a new Tarjim or the handle to
 %      the existing singleton*.
 %
-%      AKSARASUNDA('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in AKSARASUNDA.M with the given input arguments.
+%      Tarjim('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in Tarjim.M with the given input arguments.
 %
-%      AKSARASUNDA('Property','Value',...) creates a new AKSARASUNDA or raises the
+%      Tarjim('Property','Value',...) creates a new Tarjim or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before AksaraSunda_OpeningFcn gets called.  An
+%      applied to the GUI before Tarjim_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to AksaraSunda_OpeningFcn via varargin.
+%      stop.  All inputs are passed to Tarjim_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help AksaraSunda
+% Edit the above text to modify the response to help Tarjim
 
 % Last Modified by GUIDE v2.5 05-Oct-2022 23:10:53
 
@@ -28,8 +30,8 @@ function varargout = AksaraSunda(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @AksaraSunda_OpeningFcn, ...
-                   'gui_OutputFcn',  @AksaraSunda_OutputFcn, ...
+                   'gui_OpeningFcn', @Tarjim_OpeningFcn, ...
+                   'gui_OutputFcn',  @Tarjim_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -44,21 +46,21 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before AksaraSunda is made visible.
-function AksaraSunda_OpeningFcn(hObject, ~, handles, varargin)
+% --- Executes just before Tarjim is made visible.
+function Tarjim_OpeningFcn(hObject, ~, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to AksaraSunda (see VARARGIN)
+% varargin   command line arguments to Tarjim (see VARARGIN)
 
-% Choose default command line output for AksaraSunda
+% Choose default command line output for Tarjim
 handles.output = hObject;
 
 % Update handles structure
 guidata(hObject, handles);
 
-% UIWAIT makes AksaraSunda wait for user response (see UIRESUME)
+% UIWAIT makes Tarjim wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 %wallpaper
@@ -66,7 +68,7 @@ guidata(hObject, handles);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = AksaraSunda_OutputFcn(~, ~, handles) 
+function varargout = Tarjim_OutputFcn(~, ~, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -134,8 +136,8 @@ if (Y=='2071')
 elseif (Y=='2071')
  set(handles.hasil,'string','duduk')
 
- elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+ elseif (Y=='2356')
+ set(handles.hasil,'string','nutuk')
 
 elseif (Y=='2071')
  set(handles.hasil,'string','duduk')
@@ -229,7 +231,7 @@ set(gca,'Tag','axes5');
 
 % --- Executes during object creation, after setting all properties.
 function axes6_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('dhoroba-01.jpg');
 imshow(x);
 set(gca,'Tag','axes6');
 % hObject    handle to axes6 (see GCBO)
@@ -556,7 +558,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton6_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('dhoroba-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
