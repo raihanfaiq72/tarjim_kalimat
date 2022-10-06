@@ -23,7 +23,7 @@ function varargout = Tarjim(varargin)
 
 % Edit the above text to modify the response to help Tarjim
 
-% Last Modified by GUIDE v2.5 06-Oct-2022 23:33:21
+% Last Modified by GUIDE v2.5 07-Oct-2022 00:21:09
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -923,3 +923,17 @@ function latin_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to latin (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
+
+
+% --- Executes on button press in pushbutton55.
+function pushbutton55_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton55 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --- Executes on button press in pushbutton56.
+function pushbutton56_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton56 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
