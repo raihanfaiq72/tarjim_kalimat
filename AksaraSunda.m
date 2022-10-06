@@ -363,7 +363,7 @@ set(gca,'Tag','axes16');
 
 % --- Executes during object creation, after setting all properties.
 function axes17_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('makan.jpg');
 imshow(x);
 set(gca,'Tag','axes17');
 
@@ -377,7 +377,7 @@ set(gca,'Tag','axes17');
 
 % --- Executes during object creation, after setting all properties.
 function axes18_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('berjalan.jpg');
 imshow(x);
 set(gca,'Tag','axes18');
 
@@ -390,7 +390,7 @@ set(gca,'Tag','axes18');
 
 % --- Executes during object creation, after setting all properties.
 function axes19_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('melihat.jpg');
 imshow(x);
 set(gca,'Tag','axes19');
 
@@ -404,7 +404,7 @@ set(gca,'Tag','axes19');
 
 % --- Executes during object creation, after setting all properties.
 function axes20_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('komputer.jpg');
 imshow(x);
 set(gca,'Tag','axes20');
 
@@ -700,7 +700,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton17_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('makan.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -713,7 +713,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton18_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('berjalan.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -726,7 +726,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton19_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('melihat.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -739,7 +739,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton20_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('komputer.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
