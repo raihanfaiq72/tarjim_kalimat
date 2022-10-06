@@ -147,20 +147,20 @@ elseif (Y=='1850')
 elseif (Y=='1180')
  set(handles.hasil,'string','gigi')
 
-elseif (Y=='2652')
- set(handles.hasil,'string','hidung')
+elseif (Y=='207')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='1758')
- set(handles.hasil,'string','kepala')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='1535')
- set(handles.hasil,'string','mata')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='1652')
- set(handles.hasil,'string','membaca')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='1807')
- set(handles.hasil,'string','membunuh')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
 elseif (Y=='2071')
  set(handles.hasil,'string','duduk')
@@ -311,7 +311,7 @@ set(gca,'Tag','axes12');
 
 % --- Executes during object creation, after setting all properties.
 function axes13_CreateFcn(hObject, eventdata, handles)
-x=imread('kepala-01.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes13');
 % hObject    handle to axes13 (see GCBO)
@@ -324,7 +324,7 @@ set(gca,'Tag','axes13');
 
 % --- Executes during object creation, after setting all properties.
 function axes14_CreateFcn(hObject, eventdata, handles)
-x=imread('mata-01.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes14');
 % hObject    handle to axes14 (see GCBO)
@@ -337,7 +337,7 @@ set(gca,'Tag','axes14');
 
 % --- Executes during object creation, after setting all properties.
 function axes15_CreateFcn(hObject, eventdata, handles)
-x=imread('membaca-01.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes15');
 
@@ -350,7 +350,7 @@ set(gca,'Tag','axes15');
 
 % --- Executes during object creation, after setting all properties.
 function axes16_CreateFcn(hObject, eventdata, handles)
-x=imread('membunuh-01.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes16');
 
@@ -363,7 +363,7 @@ set(gca,'Tag','axes16');
 
 % --- Executes during object creation, after setting all properties.
 function axes17_CreateFcn(hObject, eventdata, handles)
-x=imread('makan.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes17');
 
@@ -377,7 +377,7 @@ set(gca,'Tag','axes17');
 
 % --- Executes during object creation, after setting all properties.
 function axes18_CreateFcn(hObject, eventdata, handles)
-x=imread('berjalan.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes18');
 
@@ -390,7 +390,7 @@ set(gca,'Tag','axes18');
 
 % --- Executes during object creation, after setting all properties.
 function axes19_CreateFcn(hObject, eventdata, handles)
-x=imread('melihat.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes19');
 
@@ -404,7 +404,7 @@ set(gca,'Tag','axes19');
 
 % --- Executes during object creation, after setting all properties.
 function axes20_CreateFcn(hObject, eventdata, handles)
-x=imread('komputer.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes20');
 
@@ -647,7 +647,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton13_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('kepala-01.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -660,7 +660,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton14_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('mata-01.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -673,7 +673,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton15_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('membaca-01.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -686,7 +686,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton16_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('membunuh-01.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -700,7 +700,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton17_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('makan.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -713,7 +713,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton18_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('berjalan.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -726,7 +726,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton19_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('melihat.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -739,7 +739,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton20_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('komputer.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
