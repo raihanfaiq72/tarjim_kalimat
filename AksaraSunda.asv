@@ -1,4 +1,5 @@
 function varargout = Tarjim(varargin)
+
 %   faiq coba github
 % Tarjim MATLAB code for Tarjim.fig
 %      Tarjim, by itself, creates a new Tarjim or raises the existing
@@ -129,8 +130,8 @@ function pushbutton2_Callback(hObject, eventdata, handles)
 % Melakukan Testing
 Y = get(handles.txt_luas,'string')
 
-if (Y=='1819')
- set(handles.hasil,'string','ngunjuk')
+if (Y=='2071')
+ set(handles.hasil,'string','duduk')
  
 elseif (Y=='2071')
  set(handles.hasil,'string','duduk')
@@ -583,7 +584,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton8_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('syaroba-01.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
