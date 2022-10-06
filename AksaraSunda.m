@@ -1,5 +1,4 @@
 function varargout = Tarjim(varargin)
-
 %   faiq coba github
 % Tarjim MATLAB code for Tarjim.fig
 %      Tarjim, by itself, creates a new Tarjim or raises the existing
