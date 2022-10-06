@@ -213,11 +213,11 @@ elseif (Y=='2116')
 
 elseif (Y=='1426')
  set(handles.hasil,'string','rumah')
- set(handles.latin,'string','madrasah')
+ set(handles.latin,'string','bayt')
 
 elseif (Y=='2091')
  set(handles.hasil,'string','sekolah')
- set(handles.latin,'string','kabil')
+ set(handles.latin,'string','madrasah')
 
 elseif (Y=='2154')
  set(handles.hasil,'string','bunga')
