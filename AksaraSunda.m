@@ -23,7 +23,7 @@ function varargout = Tarjim(varargin)
 
 % Edit the above text to modify the response to help Tarjim
 
-% Last Modified by GUIDE v2.5 05-Oct-2022 23:10:53
+% Last Modified by GUIDE v2.5 06-Oct-2022 23:33:21
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -131,6 +131,7 @@ Y = get(handles.txt_luas,'string')
 
 if (Y=='1819')
  set(handles.hasil,'string','ngunjuk')
+set(handles.latin,'string','syaroba')
  
 elseif (Y=='2071')
  set(handles.hasil,'string','duduk')
@@ -895,3 +896,17 @@ function slider1_CreateFcn(hObject, eventdata, handles)
 if isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor',[.9 .9 .9]);
 end
+
+
+% --- Executes during object creation, after setting all properties.
+function txt_luas_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to txt_luas (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+
+% --- Executes during object creation, after setting all properties.
+function latin_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to latin (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
