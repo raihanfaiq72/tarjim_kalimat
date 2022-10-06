@@ -154,82 +154,68 @@ elseif (Y=='1180')
 
 elseif (Y=='2652')
  set(handles.hasil,'string','hidung')
- set(handles.latin,'string','al`anf')
+ set(handles.latin,'string','al')
 
 elseif (Y=='1758')
  set(handles.hasil,'string','kepala')
- set(handles.latin,'string','ra`sun')
 
 elseif (Y=='1535')
  set(handles.hasil,'string','mata')
- set(handles.latin,'string','ainun')
 
 elseif (Y=='1652')
  set(handles.hasil,'string','membaca')
- set(handles.latin,'string','qara`a')
 
 elseif (Y=='1807')
  set(handles.hasil,'string','membunuh')
- set(handles.latin,'string','qatala')
 
 elseif (Y=='2324')
  set(handles.hasil,'string','makan')
- set(handles.latin,'string','akala')
- set(handles.latin,'string','ta`akul')
- 
 
 elseif (Y=='2226')
  set(handles.hasil,'string','berjalan')
- set(handles.latin,'string','masya')
 
 elseif (Y=='1717')
  set(handles.hasil,'string','melihat')
- set(handles.latin,'string','nadara')
- set(handles.latin,'string','nara`a')
 
 elseif (Y=='1963')
  set(handles.hasil,'string','komputer')
- set(handles.latin,'string','alhasub')
 
-elseif (Y=='1001')
- set(handles.hasil,'string','gambar')
- set(handles.latin,'string','surotun')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='1345')
- set(handles.hasil,'string','televisi')
- set(handles.latin,'string','tilifiziun')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='1220')
- set(handles.hasil,'string','buku')
- set(handles.latin,'string','kitabun')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='2022')
- set(handles.hasil,'string','bolpen')
- set(handles.latin,'string','qalam')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='2116')
- set(handles.hasil,'string','matahari')
- set(handles.latin,'string','syamsun')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='1426')
- set(handles.hasil,'string','rumah')
- set(handles.latin,'string','madrasah')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='2091')
- set(handles.hasil,'string','sekolah')
- set(handles.latin,'string','kabil')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='2154')
- set(handles.hasil,'string','bunga')
- set(handles.latin,'string','zahra')
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
-elseif (Y=='1896')
- set(handles.hasil,'string','kabel')
- set(handles.latin,'string','kabil')
- 
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
+
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
+
+elseif (Y=='2071')
+ set(handles.hasil,'string','duduk')
 
  
 
+ 
 else
  set(handles.hasil,'string','salah')
 end
@@ -437,7 +423,7 @@ set(gca,'Tag','axes20');
 
 % --- Executes during object creation, after setting all properties.
 function axes21_CreateFcn(hObject, eventdata, handles)
-x=imread('gambar.jpeg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes21');
 
@@ -450,7 +436,7 @@ set(gca,'Tag','axes21');
 
 % --- Executes during object creation, after setting all properties.
 function axes22_CreateFcn(hObject, eventdata, handles)
-x=imread('televisi.jpeg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes22');
 
@@ -464,7 +450,7 @@ set(gca,'Tag','axes22');
 
 % --- Executes during object creation, after setting all properties.
 function axes23_CreateFcn(hObject, eventdata, handles)
-x=imread('buku.jpeg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes23');
 
@@ -478,7 +464,7 @@ set(gca,'Tag','axes23');
 
 % --- Executes during object creation, after setting all properties.
 function axes24_CreateFcn(hObject, eventdata, handles)
-x=imread('bolpen.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes24');
 
@@ -492,7 +478,7 @@ set(gca,'Tag','axes24');
 
 % --- Executes during object creation, after setting all properties.
 function axes25_CreateFcn(hObject, eventdata, handles)
-x=imread('matahari.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes25');
 
@@ -506,7 +492,7 @@ set(gca,'Tag','axes25');
 
 % --- Executes during object creation, after setting all properties.
 function axes26_CreateFcn(hObject, eventdata, handles)
-x=imread('rumah.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes26');
 
@@ -520,7 +506,7 @@ set(gca,'Tag','axes26');
 
 % --- Executes during object creation, after setting all properties.
 function axes27_CreateFcn(hObject, eventdata, handles)
-x=imread('sekolah.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes27');
 % hObject    handle to axes27 (see GCBO)
@@ -533,7 +519,7 @@ set(gca,'Tag','axes27');
 
 % --- Executes during object creation, after setting all properties.
 function axes28_CreateFcn(hObject, eventdata, handles)
-x=imread('bunga.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes28');
 
@@ -546,7 +532,7 @@ set(gca,'Tag','axes28');
 
 % --- Executes during object creation, after setting all properties.
 function axes29_CreateFcn(hObject, eventdata, handles)
-x=imread('kabel.jpg');
+x=imread('jalasa-01.jpg');
 imshow(x);
 set(gca,'Tag','axes29');
 % hObject    handle to axes29 (see GCBO)
@@ -772,7 +758,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton21_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('gambar.jpeg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -785,7 +771,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton22_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('televisi.jpeg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -798,7 +784,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton23_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('buku.jpeg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -811,7 +797,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton24_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('bolpen.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -824,7 +810,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton25_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('matahari.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -837,7 +823,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton26_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('rumah.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -850,7 +836,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton27_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('sekolah.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -863,7 +849,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton28_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('bunga.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -876,7 +862,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton29_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('kabel.jpg');
+I=imread('jalasa-01.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
