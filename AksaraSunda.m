@@ -190,23 +190,23 @@ elseif (Y=='2071')
 elseif (Y=='2071')
  set(handles.hasil,'string','duduk')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='2022')
+ set(handles.hasil,'string','bolpen')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='2116')
+ set(handles.hasil,'string','matahari')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='1426')
+ set(handles.hasil,'string','rumah')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='2091')
+ set(handles.hasil,'string','sekolah')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='2154')
+ set(handles.hasil,'string','bunga')
 
-elseif (Y=='2071')
- set(handles.hasil,'string','duduk')
+elseif (Y=='1896')
+ set(handles.hasil,'string','kabel')
 
  
 
@@ -459,7 +459,7 @@ set(gca,'Tag','axes23');
 
 % --- Executes during object creation, after setting all properties.
 function axes24_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('bolpen.jpg');
 imshow(x);
 set(gca,'Tag','axes24');
 
@@ -473,7 +473,7 @@ set(gca,'Tag','axes24');
 
 % --- Executes during object creation, after setting all properties.
 function axes25_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('matahari.jpg');
 imshow(x);
 set(gca,'Tag','axes25');
 
@@ -487,7 +487,7 @@ set(gca,'Tag','axes25');
 
 % --- Executes during object creation, after setting all properties.
 function axes26_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('rumah.jpg');
 imshow(x);
 set(gca,'Tag','axes26');
 
@@ -501,7 +501,7 @@ set(gca,'Tag','axes26');
 
 % --- Executes during object creation, after setting all properties.
 function axes27_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('sekolah.jpg');
 imshow(x);
 set(gca,'Tag','axes27');
 % hObject    handle to axes27 (see GCBO)
@@ -514,7 +514,7 @@ set(gca,'Tag','axes27');
 
 % --- Executes during object creation, after setting all properties.
 function axes28_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('bunga.jpg');
 imshow(x);
 set(gca,'Tag','axes28');
 
@@ -527,7 +527,7 @@ set(gca,'Tag','axes28');
 
 % --- Executes during object creation, after setting all properties.
 function axes29_CreateFcn(hObject, eventdata, handles)
-x=imread('jalasa-01.jpg');
+x=imread('kabel.jpg');
 imshow(x);
 set(gca,'Tag','axes29');
 % hObject    handle to axes29 (see GCBO)
@@ -792,7 +792,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton24_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('bolpen.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -805,7 +805,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton25_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('matahari.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -818,7 +818,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton26_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('rumah.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -831,7 +831,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton27_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('sekolah.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -844,7 +844,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton28_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('bunga.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
@@ -857,7 +857,7 @@ set(open.axes1,'Userdata',I);
 function pushbutton29_Callback(hObject, eventdata, handles)
 
 open=guidata(gcbo);
-I=imread('jalasa-01.jpg');
+I=imread('kabel.jpg');
 set(open.figure1,'CurrentAxes',open.axes1);
 set(imagesc(I));
 set(open.axes1,'Userdata',I);
