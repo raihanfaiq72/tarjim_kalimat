@@ -930,13 +930,19 @@ function latin_CreateFcn(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
+%button folder
 
-% --- Executes on button press in pushbutton55.
-function pushbutton55_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton55 (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+[FileName,PathName]=uigetfile ('*.jpg','pilih folder');
 
+im=imread ([PathName,FileName]);
+
+handles.im = im;
+
+guidata(hObject,handles);
+
+axes(handles.axes1);
+
+imshow(im);
 
 % --- Executes on button press in pushbutton56.
 function pushbutton56_Callback(hObject, eventdata, handles)
