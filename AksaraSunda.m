@@ -932,17 +932,7 @@ function latin_CreateFcn(hObject, eventdata, handles)
 
 %button folder
 
-[FileName,PathName]=uigetfile ('*.jpg','pilih folder');
 
-im=imread ([PathName,FileName]);
-
-handles.im = im;
-
-guidata(hObject,handles);
-
-axes(handles.axes1);
-
-imshow(im);
 
 % --- Executes on button press in pushbutton56.
 function pushbutton56_Callback(hObject, eventdata, handles)
