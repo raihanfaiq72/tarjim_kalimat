@@ -108,11 +108,36 @@ set(imshow(Itepi));
 set(open.figure1,'Userdata',Itepi);
 set(open.axes4,'Userdata',Itepi);
 
+
 %Proses Mencari txt_hasil Objek
 L=luas(Itepi);
 handles.luas=L;
 guidata(hObject,handles);
 set(handles.txt_luas,'string',L);
+
+% Histogram
+set(open.figure1,'CurrentAxes',open.axes97);
+imhist(g)
+set(open.figure1,'Userdata',Igray);
+set(open.axes97,'Userdata',Igray);
+
+set(open.figure1,'CurrentAxes',open.axes98);
+imhist(Igray)
+set(open.figure1,'Userdata',Igray);
+set(open.axes98,'Userdata',Igray);
+
+
+set(open.figure1,'CurrentAxes',open.axes99);
+imhist(Ibw)
+set(open.figure1,'Userdata',Ibw);
+set(open.axes99,'Userdata',Ibw);
+
+
+set(open.figure1,'CurrentAxes',open.axes100);
+imhist(Itepi)
+set(open.figure1,'Userdata',Itepi);
+set(open.axes100,'Userdata',Itepi);
+
 
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
