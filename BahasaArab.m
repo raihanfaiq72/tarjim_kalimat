@@ -1,4 +1,4 @@
-function varargout = Tarjim(varargin)
+    function varargout = Tarjim(varargin)
 %   faiq coba github
 % Tarjim MATLAB code for Tarjim.fig
 %      Tarjim, by itself, creates a new Tarjim or raises the existing
@@ -963,11 +963,23 @@ function pushbutton55_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 
+
 % --- Executes on button press in pushbutton56.
 function pushbutton56_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton56 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+[nama_file,nama_path] = uigetfile({'*.jpg'},....
+    'PILIH FOLDER');
+if ~isequal (nama_file,0)
+    handles.data1 = imread(fullfile(nama_path,nama_file));
+    guidata(hObject,handles);
+    axes(handles.axes1);
+    imshow(handles.data1);
+else 
+    return
+end
+
 
 
 % --- Executes during object creation, after setting all properties.
