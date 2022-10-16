@@ -118,8 +118,8 @@ set(handles.txt_luas,'string',L);
 % Histogram
 set(open.figure1,'CurrentAxes',open.axes97);
 imhist(g)
-set(open.figure1,'Userdata',g);
-set(open.axes97,'Userdata',g);
+set(open.figure1,'Userdata',Igray);
+set(open.axes97,'Userdata',Igray);
 
 set(open.figure1,'CurrentAxes',open.axes98);
 imhist(Igray)
@@ -958,18 +958,6 @@ function latin_CreateFcn(hObject, eventdata, handles)
 
 % --- Executes on button press in pushbutton55.
 function pushbutton55_Callback(hObject, eventdata, handles)
-[nama_file,nama_path] = uigetfile({'*.jpg'},....
-    'PILIH FOLDER');
-
-if isequal (nama_file,0)
-else 
-    open=guidata(gcbo)
-    I = imread(fullfile(nama_path,nama_file));
-    set(open.figure1,'CurrentAxes',open.axes1);
-    set(imagesc(I));
-    set(open.axes1,'UserData',I);
-    return
-end
 % hObject    handle to pushbutton55 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
@@ -986,11 +974,10 @@ function pushbutton56_Callback(hObject, eventdata, handles)
 
 if isequal (nama_file,0)
 else 
-    open=guidata(gcbo)
-    I = imread(fullfile(nama_path,nama_file));
-    set(open.figure1,'CurrentAxes',open.axes1);
-    set(imagesc(I));
-    set(open.axes1,'UserData',I);
+    handles.data1 = imread(fullfile(nama_path,nama_file));
+    guidata(hObject,handles.data1);
+    axes(handles.axes1);
+    imshow(handles.data1);
     return
 end
 
