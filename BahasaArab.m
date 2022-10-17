@@ -98,7 +98,6 @@ set(imshow(Ibw));
 set(open.figure1,'Userdata',Ibw);
 set(open.axes3,'Userdata',Ibw);
 
-
 %Proses Treeshold to Garis Tepi
 open=guidata(gcbo);
 tepi=get(open.axes3,'Userdata');
@@ -107,7 +106,6 @@ set(open.figure1,'CurrentAxes',open.axes4);
 set(imshow(Itepi));
 set(open.figure1,'Userdata',Itepi);
 set(open.axes4,'Userdata',Itepi);
-
 
 %Proses Mencari txt_hasil Objek
 L=luas(Itepi);
