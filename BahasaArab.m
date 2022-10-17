@@ -252,6 +252,10 @@ elseif (Y=='1896')
  set(handles.hasil,'string','kabel')
  set(handles.latin,'string','kabil')
  
+ elseif (Y=='1771')
+ set(handles.hasil,'string','telinga')
+ set(handles.latin,'string','udzunun')
+ 
 
  
 
