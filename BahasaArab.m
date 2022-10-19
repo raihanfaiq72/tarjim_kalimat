@@ -334,6 +334,33 @@ elseif (Y=='1896')
  set(handles.hasil,'string','Bayam')
  set(handles.latin,'string','Sabanakhun')
  
+ 
+ %deklarasi kalimat
+ 
+   elseif (Y=='2756')
+ set(handles.hasil,'string','kepasar untuk membeli bahan makanan')
+ set(handles.latin,'string','-')
+ 
+    elseif (Y=='1991')
+ set(handles.hasil,'string','apakah engkau akan membeli sayur?')
+ set(handles.latin,'string','-')
+ 
+    elseif (Y=='2678')
+ set(handles.hasil,'string','iyaa, apa kamu mau titip sayur?')
+ set(handles.latin,'string','-')
+ 
+    elseif (Y=='3410')
+ set(handles.hasil,'string','yap! belikan wortel ya')
+ set(handles.latin,'string','-')
+ 
+    elseif (Y=='2792')
+ set(handles.hasil,'string','okeee, ada yang lain?')
+ set(handles.latin,'string','-')
+ 
+    elseif (Y=='2640')
+ set(handles.hasil,'string','hii mom , mo kemana?')
+ set(handles.latin,'string','-')
+ 
 else
  set(handles.hasil,'string','salah')
 end
