@@ -307,59 +307,8 @@ elseif (Y=='1896')
  set(handles.latin,'string','fasulia')
  
   elseif (Y=='2315')
- set(handles.hasil,'string','cabai')
- set(handles.latin,'string','fulful')
- 
-  elseif (Y=='2218')
- set(handles.hasil,'string','wortel')
- set(handles.latin,'string','Jarozun')
- 
-  elseif (Y=='2047')
- set(handles.hasil,'string','kol/kubis')
- set(handles.latin,'string','Kurnubun')
- 
-  elseif (Y=='3120')
- set(handles.hasil,'string','Daun bawang')
- set(handles.latin,'string','Kurrosun')
- 
-  elseif (Y=='2671')
- set(handles.hasil,'string','kol/kubis')
- set(handles.latin,'string','Malfufun')
- 
-  elseif (Y=='3338')
- set(handles.hasil,'string','Brokoli')
- set(handles.latin,'string','Qornabitu')
- 
-  elseif (Y=='2606')
- set(handles.hasil,'string','Bayam')
- set(handles.latin,'string','Sabanakhun')
- 
- 
- %deklarasi kalimat
- 
-   elseif (Y=='2756')
- set(handles.hasil,'string','kepasar untuk membeli bahan makanan')
- set(handles.latin,'string','-')
- 
-    elseif (Y=='1991')
- set(handles.hasil,'string','apakah engkau akan membeli sayur?')
- set(handles.latin,'string','-')
- 
-    elseif (Y=='2678')
- set(handles.hasil,'string','iyaa, apa kamu mau titip sayur?')
- set(handles.latin,'string','-')
- 
-    elseif (Y=='3410')
- set(handles.hasil,'string','yap! belikan wortel ya')
- set(handles.latin,'string','-')
- 
-    elseif (Y=='2792')
- set(handles.hasil,'string','okeee, ada yang lain?')
- set(handles.latin,'string','-')
- 
-    elseif (Y=='2640')
- set(handles.hasil,'string','hii mom , mo kemana?')
- set(handles.latin,'string','-')
+ set(handles.hasil,'string','kentang')
+ set(handles.latin,'string','Batotis')
  
 else
  set(handles.hasil,'string','salah')

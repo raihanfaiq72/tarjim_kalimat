@@ -5,4 +5,3 @@ PROGRAM INI DIKERJAKAN OLEH :
 -reza syahpahlevi mahardhika		(A11.2020.12871)
 -Farid Choirul Burhan 			(A11.2020.12455)
 -Farhan Badru Tamam 			(A11.2020.12992)
-MENGGUNAKAN LOGIC AKSARA SUNDA
